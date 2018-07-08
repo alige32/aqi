@@ -10,6 +10,12 @@ selenium做month和day页面的渲染，这两个页面做了JS加密，selenium
 
 数据保存为json格式，利用数据分析三件套：numpy、pandas、matplotlib进行数据清洗、展示。
 
+先来一张全家福，看下七月初全国只要城市的aqi对比，其实好像还是能接受。。。调用了echart做渲染，效果比matplotlib好不少(*^▽^*)
+
+
+![7月1号全国主要城市空气质量](images/7%E6%9C%881%E5%8F%B7%E5%85%A8%E5%9B%BD%E4%B8%BB%E8%A6%81%E5%9F%8E%E5%B8%82%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F.png)
+
+
 深圳6月份的aqi走势图，深圳不愧是一线中空气质量最好的，六月份的不良天数仅为一天
 
 
@@ -21,5 +27,5 @@ selenium做month和day页面的渲染，这两个页面做了JS加密，selenium
 ![广深空气质量对比](images/%E5%B9%BF%E6%B7%B1%E7%A9%BA%E6%B0%94%E8%B4%A8%E9%87%8F%E5%AF%B9%E6%AF%94.png)
 
 
-后续会更新其他分析图表展示，jupyter数据分析代码一并上传
+后续会更新其他分析图表展示，jupyter数据清洗生成图表代码一并上传
 
